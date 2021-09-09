@@ -247,18 +247,6 @@ export class AnimateCC extends React.Component<Props, State> {
               backgroundColor: color,
             }}
           />
-          <div
-            style={{
-              pointerEvents: 'none',
-              overflow: 'hidden',
-              width: `${properties.width}px`,
-              height: `${properties.height}px`,
-              position: 'absolute',
-              left: '0px',
-              top: '0px',
-              display: 'block',
-            }}
-          />
         </div>
       </div>
     );
